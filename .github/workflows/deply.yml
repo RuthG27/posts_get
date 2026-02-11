@@ -23,7 +23,7 @@ jobs:
 
       - name: Build project
         # Se usa el nombre de tu proyecto 'posts-get' para la base de las rutas
-        run: npx ng build --configuration production --base-href /posts-get/
+        run: npx ng build --configuration production --base-href /
 
       - name: Deploy via rsync
         uses: burnett01/rsync-deployments@7.0.1
